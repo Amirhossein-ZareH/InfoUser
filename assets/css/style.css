@@ -1,0 +1,200 @@
+.all,
+.price {
+    position: relative
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.forosh {
+    width: 400px;
+    margin: 0 auto
+}
+
+.header_title {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center
+}
+
+.header_brand {
+    text-align: right;
+    color: #000
+}
+
+.header_factor {
+    color: #000;
+    font-weight: 900;
+    font-size: 40px
+}
+
+.all,
+.footer_para,
+.header_brand,
+.price {
+    font-weight: 600
+}
+
+.header_brand {
+    font-size: 20px;
+    margin-bottom: -10px;
+    margin-top: 20px
+}
+
+.footer_factor,
+.section_factor,
+.table-data td {
+    text-align: center
+}
+
+.section_factor,
+.table th {
+    background-color: #000;
+    color: #fff
+}
+
+.table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 2px solid #000;
+    border-bottom: none;
+    border-radius: 5px
+}
+
+.table td,
+.table th {
+    padding: 8px;
+    border: 2px solid #000;
+    border-bottom: none;
+    direction: rtl;
+    border-radius: 5px;
+    font-size: 20px
+}
+
+.table td {
+    width: 100%;
+    margin-bottom: 50px
+}
+
+.section_factor {
+    display: flex;
+    direction: rtl;
+    justify-content: center;
+    border: 2px solid #000;  
+    border-radius: 5px;
+    height: 65px
+}
+
+.all {
+    margin-top: 20px;
+    font-size: 25px;
+    left: 80px
+}
+
+.price {
+    text-align: right;
+    top: 25px;
+    right: 55px;
+    font-size: 17px
+}
+
+.footer_factor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.footer_para {
+    margin-top: 80px;
+    font-size: 20px
+}
+
+.footer_brand,
+.footer_link {
+    display: flex;
+    text-align: center;
+    position: relative;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px
+}
+
+.footer_img {
+    width: 150px;
+    position: relative;
+    left: 125px
+}
+
+.footer_brand {
+    justify-content: flex-end;
+    top: 65px
+}
+
+.footer_link {
+    justify-content: center;
+    top: 45px;
+    color: #000;
+    text-decoration: none
+}
+
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+}
+
+.table-header {
+    text-align: right;
+    padding: 12px;
+    /* background-color: #f2f2f2; */
+    width: 150px;
+}
+
+td {
+    /* padding-left: 22px; */
+    text-align: left;
+    /* border-bottom: 1px solid #ddd; */
+}
+
+.tarikh_border{
+    margin-top: 30px;
+    border: 2px solid black;
+    border-bottom: none;
+
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.header_date1{
+    margin-top: 20px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.header_date2{
+    margin-top: 20px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.header_tarikh{
+    margin-top: 20px;
+}
