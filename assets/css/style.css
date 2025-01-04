@@ -98,6 +98,7 @@ body {
 .all {
     font-size: 20px;
     text-align: left;
+    margin-top: 20px;
     /* left: 80px */
 }
 
@@ -106,6 +107,7 @@ body {
     /* top: 25px; */
     /* right: 55px; */
     margin-right: 5px;
+    margin-top: 20px;
     font-size: 17px
 }
 
