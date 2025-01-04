@@ -89,22 +89,23 @@ body {
 .section_factor {
     display: flex;
     direction: rtl;
-    justify-content: center;
+    /* justify-content: center; */
     border: 2px solid #000;  
     border-radius: 5px;
     height: 65px
 }
 
 .all {
-    margin-top: 20px;
-    font-size: 25px;
-    left: 80px
+    font-size: 20px;
+    text-align: left;
+    /* left: 80px */
 }
 
 .price {
-    text-align: right;
-    top: 25px;
-    right: 55px;
+    /* text-align: righ ; */
+    /* top: 25px; */
+    /* right: 55px; */
+    margin-right: 5px;
     font-size: 17px
 }
 
